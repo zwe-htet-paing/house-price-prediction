@@ -1,5 +1,7 @@
 # House Price Prediction
 
+DatatalksClub's ML Zoomcamp Midterm Project
+
 ## Problem Description
 
 Predicting house prices is a crucial task in real estate, assisting buyers, sellers, and investors in making informed decisions. This project focuses on creating a machine learning model to estimate house prices based on key features such as square footage, number of bedrooms, lot size, and neighborhood quality.
@@ -59,10 +61,10 @@ After evaluating multiple regression models, the **XGBoost Regressor** emerged a
 
 #### Model Performance (RMSE):
 
-    - **Linear Regression**: RMSE = 0.0882
-    - **Decision Tree Regressor**: RMSE = 0.1115
-    - **Random Forest Regressor**: RMSE = 0.0571
-    - **XGBoost Regressor**: RMSE = 0.0401 (Best Model)
+- **Linear Regression**: RMSE = 0.0882
+- **Decision Tree Regressor**: RMSE = 0.1115
+- **Random Forest Regressor**: RMSE = 0.0571
+- **XGBoost Regressor**: RMSE = 0.0401 (Best Model)
 
 ### Final Model Training
 
@@ -80,7 +82,7 @@ The **XGBoost Regressor** was selected as the final model due to its superior pe
 }
 ```
 
-The full training process is implemented in the `train.py` script, where the final model is trained and saved for deployment in the Flask web application.
+The full training process is implemented in the [`train.py`](train.py) script, where the final model is trained and saved for deployment in the Flask web application.
 
 ### 4. Flask API
 
