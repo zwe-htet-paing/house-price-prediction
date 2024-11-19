@@ -1,6 +1,6 @@
 # House Price Prediction
 
-DatatalksClub's ML Zoomcamp Midterm Project -2024
+DatatalksClub's ML Zoomcamp Midterm Project - 2024
 
 ## Problem Description
 
