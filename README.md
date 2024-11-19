@@ -12,6 +12,8 @@ The solution includes a feature engineering step to enrich the dataset with addi
 
 This beginner-friendly regression dataset, titled `Home Value Insights`, contains 1,000 rows. Each row represents a house with its key attributes that influence its price. The dataset serves as a great starting point for learning and implementing regression models for real-world use cases like house price prediction.
 
+You can find dataset in [`here`](https://www.kaggle.com/datasets/prokshitha/home-value-insights/data).
+
 ### Features
 
 1. **Square_Footage**: The size of the house in square feet. Larger homes typically have higher prices.
@@ -187,3 +189,15 @@ curl -X POST http://localhost:9696/predict \
     "predicted_value":675612.899
 }
 ```
+
+## Future Improvements
+
+- Enhance feature engineering with additional variables like location or market trends.
+- Fine-tune the hyperparameters for XGBoost for improved performance.
+- Add support for batch predictions.
+- Deploy the API to a cloud platform like AWS or GCP.
+
+## License
+
+This project is open-source and free to use under the **GNU General Public License (GPL)** v3.0.
+
