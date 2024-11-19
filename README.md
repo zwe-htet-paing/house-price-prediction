@@ -57,7 +57,7 @@ To enhance predictive performance, new features were generated based on the orig
 For detailed steps on model training and evaluation, check out [notebook.ipynb](notebook.ipynb).
 
 
-### 2. Best Model Selection and Final Training
+### 2. Best Model Selection
 
 After evaluating multiple regression models, the **XGBoost Regressor** emerged as the best performer with the lowest RMSE of **0.0401**, indicating the highest predictive accuracy for the house price prediction task.
 
@@ -68,7 +68,7 @@ After evaluating multiple regression models, the **XGBoost Regressor** emerged a
 - **Random Forest Regressor**: RMSE = 0.0571
 - **XGBoost Regressor**: RMSE = 0.0401 (Best Model)
 
-### Final Model Training
+### 3. Final Model Training
 
 The **XGBoost Regressor** was selected as the final model due to its superior performance. The model was trained with the best hyperparameters found through **RandomizedSearchCV**. 
 
